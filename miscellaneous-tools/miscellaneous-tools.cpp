@@ -1,6 +1,15 @@
 ﻿#include <iostream>
+#include "PseudorandomNumberGenerators.h"
 
-int main()
+#include <iostream>
+#include <time.h>
+
+using namespace std;
+
+void main(void)
 {
-    std::cout << "Hello World!\n";
+	PRNG d;
+	d.generate();
+
+
 }

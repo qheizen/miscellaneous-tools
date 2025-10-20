@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="miscellaneous-tools.cpp" />
+    <ClCompile Include="PseudorandomNumberGenerators.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PseudorandomNumberGenerators.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
